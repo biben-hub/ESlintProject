@@ -4,7 +4,9 @@
   "description": "# locally in your project folder prepare the environnement npm init npm install typescript npm install express npm install nodemon npm install mongoose npm install dotenv npm install --save-dev ts-node @types/express @types/node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node public/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
