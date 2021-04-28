@@ -11,8 +11,9 @@ npm install --save-dev ts-node @types/express @types/node
 npm install --save-dev eslint
 
 # create the folder
-src folder
+src folder / routes folder
 public folder
+
 
 # ts configuration file
 tsc --init
